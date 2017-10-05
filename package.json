@@ -1,0 +1,33 @@
+{
+  "name": "gruntfile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niyorn"
+  },
+  "keywords": [],
+  "author": "Chanakarn Niyornram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niyorn"
+  },
+  "homepage": "https://github.com/niyorn",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-babel": "^7.0.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.9.0",
+    "grunt-sass": "^2.0.0"
+  },
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "description": ""
+}

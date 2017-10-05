@@ -1,0 +1,30 @@
+//Reset
+@import '../module/all';
+
+body {
+  font-family: $base_font;
+  line-height: $base_line_height;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: $bold;
+}
+
+h1 {
+  font-size: $base_font_size * 4;
+}
+
+h2 {
+  font-size: $base_font_size * 3;
+}
+
+h3 {
+  font-size: $base_font_size * 2;
+}
+
+p {
+  font-size: $base_font_size * 1.2;
+}
