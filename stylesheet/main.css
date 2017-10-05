@@ -20,3 +20,26 @@ h3 {
 
 p {
   font-size: 1.2em; }
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 95vw;
+  min-height: 100vh; }
+
+svg {
+  background-color: red; }
+
+axis:axis--x {
+  -webkit-transform: translateY(15px);
+          transform: translateY(15px); }
+axis:axis--y {
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px); }
