@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AACQ,8EAAsE;ACE9E,IAAK;EACH,WAAW,EDYD,oBAAoB;ECX9B,WAAW,EDQM,GAAG;;ACLtB;;;EAGG;EACD,WAAW,EDLN,GAAG;;ACQV,EAAG;EACD,SAAS,EAAE,GAAmB;;AAGhC,EAAG;EACD,SAAS,EAAE,GAAmB;;AAGhC,EAAG;EACD,SAAS,EAAE,GAAmB;;AAGhC,CAAE;EACA,SAAS,EAAE,KAAqB",
-"sources": ["sass/module/_font.scss","sass/partials/_base.scss"],
-"names": [],
-"file": "main.css"
-}
