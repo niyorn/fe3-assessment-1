@@ -2,7 +2,7 @@
 
 This bar chart let you see which language is the most used by people. The X-axis represent the country and de Y-as show how many people are using the language.
 
-##The Features
+## The Features
 the list show the features that are used to creat this chart.
 * [d3.max](https://github.com/d3/d3-array/blob/master/README.md#max)
 * [d3.axisBottom()](https://github.com/d3/d3-array/blob/master/README.md#max)
