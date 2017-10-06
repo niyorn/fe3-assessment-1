@@ -1,16 +1,16 @@
-# ![Banner][preview.JPG]
+# ![Banner](preview.JPG)
 
 This bar chart let you see which language is the most used by people. The X-axis represent the country and de Y-as show how many people are using the language.
 
 ##The Features
 the list show the features that are used to creat this chart.
+* [d3.max](https://github.com/d3/d3-array/blob/master/README.md#max)
+* [d3.axisBottom()](https://github.com/d3/d3-array/blob/master/README.md#max)
+* [d3.axisLeft()](https://github.com/d3/d3-axis/blob/master/README.md#axisLeft)
 * [d3.tsv](https://github.com/d3/d3-request/blob/master/README.md#tsv)
 * [d3.select](https://github.com/d3/d3-selection/blob/master/README.md#select)
 * [d3.scaleBand()](https://github.com/d3/d3-scale/blob/master/README.md#scaleBand)
 * [d3.scaleLinear()](https://github.com/d3/d3-scale/blob/master/README.md#scaleLinear)
-* [d3.max](https://github.com/d3/d3-array/blob/master/README.md#max)
-* [d3.axisBottom()](https://github.com/d3/d3-array/blob/master/README.md#max)
-* [d3.axisLeft()](https://github.com/d3/d3-axis/blob/master/README.md#axisLeft)
 
 ## Workflow
 
@@ -18,9 +18,9 @@ Te first thing I want to know are the basic function of D3 and that's why I choo
 
 The second thing was choosing a data and making sensen out of it. For me it was the language data. 
 
-After that, I went searching  for a code example to get inspiration from and the [Bar chart by Mike Bostock](https://bl.ocks.org/mbostock/3885304) is a really reat one
+After that, I went searching  for a code example to get inspiration from and the [Bar chart by Mike Bostock](https://bl.ocks.org/mbostock/3885304) is a really great one
 
-After that It was getting started.
+The last thing is just getting started ")
 Most of the code is self writin.
 
 
