@@ -1,15 +1,25 @@
-svg{
-  background-color: red;
+//Reset
+@import '../module/all';
+
+h1{
+  position: absolute;
+  right: 5rem;
+  animation: slide-in-from-bottom 2s;
 }
 
-
 axis{
+}
 
-  &:axis--x{
-    transform:translateY(15px);
-  }
+rect{
+  fill: #64B5F6;
+}
 
-  &:axis--y{
-    transform: translateX(-15px);
+.bar{
+  &:hover{
+    fill: #1565C0;
   }
+}
+
+.activate{
+  animation: slide-in-from-bottom 2s;
 }
