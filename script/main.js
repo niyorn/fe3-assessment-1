@@ -68,5 +68,17 @@ function renderData(data){
   .attr("x", (d)=>xScale(d.language))//the x coordinate is the place where the text are
   .attr("y", (d)=>innerHeight - yScale(d.speakers)) // the y coordinate to create the bar
   .attr("width", xScale.bandwidth()-gap)//bandwidth()try to fill the whole container, but we dont want that's why we create a gap
-  .attr("height", (d)=>yScale(d.speakers));//get height
+  .attr("height", (d)=>yScale(d.speakers))//get height
+  .style("fill", getRandomColor());
+}
+
+//color generator
+//src: https://stackoverflow.com/questions/1484506/random-color-generator
+function getRandomColor(){
+  let letters = '0123456789ABCDEF';
+  let color = '#';
+  for (let i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
 }
