@@ -1,4 +1,4 @@
-# ![Banner][preview.PNG]
+# ![Banner][preview.JPG]
 
 This bar chart let you see which language is the most used by people. The X-axis represent the country and de Y-as show how many people are using the language.
 
